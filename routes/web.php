@@ -5,8 +5,9 @@ Route::get('/', function () {
 });
 
 Route::get('app', function(){
-    //Retourner la vue 'app'
-    return view('');
+    return view('app');
 });
 
-//Créer une route pour accéder à la vue 'about'
+Route::get('about', function(){
+    return view('about');
+});

@@ -11,19 +11,13 @@
     <div class="jumbotron">
         <p class="display-4">Twotter is a very cool app designed to keep in touch with people, koalas and/or pandas.</p>
         <hr class="my-4">
-
-
-        <!-- Revenir vers /app -->
-        <a href="">Back</a>
-
-
-
+        <a href="{{url('/app')}}">Back</a>
     </div>
 
     <div class="row">
         <h1 class="display-3">Happy clients</h1>
     </div>
-    <br><!-- Yes I know we're not supposed to use <br> for layout but I'm just a gangsta I suppose. -->
+    <br>
     <div class="row">
         <div class="card col-4">
             <img class="card-img-top" src="http://exitm41.tcp-innovation.fr/wp-content/uploads/2015/07/panda-roux-c-zoo-de-lyon-350x350.jpg">
