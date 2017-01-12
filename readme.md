@@ -26,3 +26,11 @@ Deuxième route
 
 Dans le fichier routes/web.php, créer une autre route pour l'url '/about' qui retourne la vue 'about'.
 Dans resources/views/about.blade.php mettre à jour le href du lien (ligne 17) pour revenir sur /app
+
+
+Fin de la step0, on peut accéder à la page 'about' et revenir sur 'app'.
+
+Pour passer à l'étape suivante, un petit `git add . && git commit -m 'Step 0 finie woooo' && git checkout step1`
+
+# Step 1
+
