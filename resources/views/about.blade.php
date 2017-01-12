@@ -20,10 +20,9 @@
 
     </div>
 
-    <div class="row">
+    <div class="row" style="margin-bottom:25px;">
         <h1 class="display-3">Happy clients</h1>
     </div>
-    <br><!-- Yes I know we're not supposed to use <br> for layout but I'm just a gangsta I suppose. -->
     <div class="row">
         <div class="card col-4">
             <img class="card-img-top" src="http://exitm41.tcp-innovation.fr/wp-content/uploads/2015/07/panda-roux-c-zoo-de-lyon-350x350.jpg">

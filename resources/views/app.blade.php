@@ -11,7 +11,7 @@
         <div class="jumbotron">
             <h1 class="display-3">Twotter</h1>
             <hr class="my-4">
-            <a href="{{url('/')}}">About</a>
+            <a href="{{url('about')}}">About</a>
         </div>
     </div>
 </body>
