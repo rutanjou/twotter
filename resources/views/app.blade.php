@@ -8,10 +8,19 @@
 </head>
 <body>
     <div class="container">
-        <div class="jumbotron">
-            <h1 class="display-3">Twotter</h1>
-            <hr class="my-4">
-            <a href="{{url('/about')}}">About</a>
+        <div class="row">
+            <div class="jumbotron col-12">
+                <h1 class="display-3">Twotter</h1>
+                <hr class="my-4">
+                <a href="{{url('/about')}}">About</a>
+            </div>
+        </div>
+
+        <div class="row">
+            <form action="">
+                <input type="text" class="col-8 offset-1 form-control">
+                <button class="btn btn-primary col-1 offset-1">Twotter</button>
+            </form>
         </div>
     </div>
 </body>
