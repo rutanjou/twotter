@@ -5,7 +5,7 @@ Ce repo vous guidera pour apprendre les bases de Laravel à travers la création
 Installation
 ---
 1. Cloner le repo `git clone https://github.com/amouillard/twotter`
-2. Installer les dépendances `composer install` (si pas installé : https://getcomposer.org/download/)
+2. Installer les dépendances `composer install` (si composer pas installé : https://getcomposer.org/download/)
 3. Lancer le serveur local avec `php artisan serve`
 
 Step 0
