@@ -31,5 +31,5 @@ Route::post('twoots', function(){
 Route::delete('twoots/{twoot}', function(Twoot $twoot){
     $twoot->delete();
 
-    return redirect()->to('main');
+    return redirect()->to('/');
 });
