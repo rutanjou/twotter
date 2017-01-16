@@ -6,7 +6,8 @@ Installation
 ---
 1. Cloner le repo `git clone https://github.com/amouillard/twotter`
 2. Installer les dépendances `composer install` (si composer pas installé : https://getcomposer.org/download/)
-3. Lancer le serveur local avec `php artisan serve`
+3. Installer sqlite `sudo apt-get install php-sqlite3` et redémarrer
+4. Lancer le serveur local avec `php artisan serve`
 
 Step 0
 ---
@@ -23,11 +24,14 @@ Step 1
 ---
 
 https://laravel.com/docs/5.3/eloquent
+https://laravel.com/docs/5.3/blade
 
 Ouvrir le fichier `routes/web.php`
 Dans le GET sur '/', ajouter les données de tous les Twoots (`Model::all()`)
 
 Dans le navigateur, on doit voir un premier twoot qui était déjà ajouté en base de données.
+
+Mais sans son texte ! Il faut faire un tour dans `resources/views/app.blade.php` vers la balise `<h4 class="card-title">`
 
 Step 2
 ---

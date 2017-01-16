@@ -14,13 +14,13 @@
                 <hr class="my-4">
 
 
-                <a href="{{ 'Il faudrait mettre la route about par ici...' }}">About</a>
+                <a href="#">About</a>
 
 
             </div>
         </div>
 
-        <form action="{{ route('create') }}" method="POST" class="row">
+        <form action="{{ url('/twoots') }}" method="POST" class="row">
             <input type="text" name="text" class="col-sm-12 col-md-8 form-control">
             <button type="submit" class="btn btn-primary col-sm-12 col-md-3 offset-md-1">Twoot !</button>
         </form>
@@ -34,7 +34,7 @@
                     <h4 class="card-title"><!-- Ajouter le text du twoot ici ! Il est contenu dans $twoot->text --></h4>
 
 
-                    <form action="{{ route('delete', $twoot->id) }}" method="POST">
+                    <form action="{{ url("/twoots/$twoot->id") }}" method="POST">
                         <button class="btn btn-danger">Supprimer</button>
                         {{ method_field('DELETE') }}
                     </form>

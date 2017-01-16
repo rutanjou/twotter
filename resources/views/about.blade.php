@@ -12,7 +12,7 @@
         <div class="jumbotron col-12">
             <p class="display-4">Twotter is a very cool app designed to keep in touch with people, koalas and/or pandas.</p>
             <hr class="my-4">
-            <a href="{{ route('main') }}">Back</a>
+            <a href="{{ url('/') }}">Back</a>
         </div>
     </div>
 
