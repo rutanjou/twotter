@@ -12,16 +12,30 @@
             <div class="jumbotron col-12">
                 <h1 class="display-3">Twotter</h1>
                 <hr class="my-4">
-                <a href="{{url('/about')}}">About</a>
+                <a href="{{ route('about') }}">About</a>
             </div>
         </div>
 
-        <div class="row">
-            <form action="">
-                <input type="text" class="col-8 offset-1 form-control">
-                <button class="btn btn-primary col-1 offset-1">Twotter</button>
-            </form>
-        </div>
+        <form action="{{ route('create') }}" method="POST" class="row">
+            <input type="text" name="text" class="col-sm-12 col-md-8 form-control">
+            <button type="submit" class="btn btn-primary col-sm-12 col-md-3 offset-md-1">Twoot !</button>
+        </form>
+
+        @foreach($twoots as $twoot)
+            <div class="row card text-center mt-3">
+
+                <div class="card-block">
+                    <h4 class="card-title">{{ $twoot->text }}</h4>
+                    <form action="{{ route('delete', $twoot->id) }}" method="POST">
+                        <button class="btn btn-danger">Supprimer</button>
+                        {{ method_field('DELETE') }}
+                    </form>
+                </div>
+                <div class="card-footer text-muted">
+                    {{ $twoot->created_at->diffForHumans() }}
+                </div>
+            </div>
+        @endforeach
     </div>
 </body>
 </html>
