@@ -12,7 +12,11 @@
             <div class="jumbotron col-12">
                 <h1 class="display-3">Twotter</h1>
                 <hr class="my-4">
-                <a href="{{ route('about') }}">About</a>
+
+
+                <a href="{{ 'Il faudrait mettre la route about par ici...' }}">About</a>
+
+
             </div>
         </div>
 
@@ -25,14 +29,18 @@
             <div class="row card text-center mt-3">
 
                 <div class="card-block">
-                    <h4 class="card-title">{{ $twoot->text }}</h4>
+
+
+                    <h4 class="card-title"><!-- Ajouter le text du twoot ici ! Il est contenu dans $twoot->text --></h4>
+
+
                     <form action="{{ route('delete', $twoot->id) }}" method="POST">
                         <button class="btn btn-danger">Supprimer</button>
                         {{ method_field('DELETE') }}
                     </form>
                 </div>
                 <div class="card-footer text-muted">
-                    {{ $twoot->created_at->diffForHumans() }}
+                    Créé il y a pas longtemps
                 </div>
             </div>
         @endforeach
