@@ -4,7 +4,7 @@ use App\Twoot;
 
 Route::get('/', function () {
     return view('app')->with([
-        'twoots' => []
+        'twoots' => [] //Remplacer le tableau vide par tous les twoots
     ]);
 
 // Récupérer tous les "twoots" et les ajouter à la vue
