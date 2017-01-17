@@ -6,8 +6,9 @@ Installation
 ---
 1. Cloner le repo `git clone https://github.com/amouillard/twotter`
 2. Installer les dépendances `composer install` (si composer pas installé : https://getcomposer.org/download/)
-3. Installer sqlite `sudo apt-get install php-sqlite3` et redémarrer
-4. Lancer le serveur local avec `php artisan serve`
+3. Si problème de token sur l'API github, suivre les instructions affichées dans le terminal ou appeler à l'aide
+4. Installer sqlite `sudo apt-get install php-sqlite3` et redémarrer
+5. Lancer le serveur local avec `php artisan serve`
 
 Step 0
 ---
