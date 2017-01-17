@@ -31,7 +31,7 @@
                 <div class="card-block">
 
 
-                    <h4 class="card-title"><!-- Ajouter le text du twoot ici ! Il est contenu dans $twoot->text --></h4>
+                    <h4 class="card-title">{{ $twoot->text }}</h4>
 
 
                     <form action="{{ url("/twoots/$twoot->id") }}" method="POST">

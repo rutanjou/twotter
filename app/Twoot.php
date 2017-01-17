@@ -8,5 +8,7 @@ class Twoot extends Model
 {
     public $table = 'twoots';
 
-    public $guarded = ['id'];
+    public $fillable = [
+        'text'
+    ];
 }

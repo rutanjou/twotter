@@ -37,7 +37,7 @@ Step 2
 ---
 
 Ouvrir le fichier `routes/web.php`
-Faire fonctionner la logique de création d'un twoot
+Faire fonctionner la logique de création d'un twoot (`Route::post`...)
 Vérifier qu'on peut créer, voir et supprimer des twoots !
 
 Step 3
@@ -49,12 +49,14 @@ Si on crée un twoot disant "Hello, world !" il doit s'afficher "Hello, world ! 
 Bonus validation
 ---
 
-Trouver un moyen d'empêcher la création d'un twoot vide.
 https://laravel.com/docs/5.3/validation
+
+Trouver un moyen d'empêcher la création d'un twoot vide.
 
 Bonus timestamp de création
 ---
 
+http://carbon.nesbot.com/docs/
 https://laravel.com/docs/5.3/eloquent-mutators#date-mutators
 
 Dans le fichier `app.blade.php`, changer le "Créé il y a pas longtemps" par une date relative à la date actuelle ("8 minutes ago" ...)
