@@ -62,7 +62,7 @@ Bonus vue pleine page
 ---
 
 Créer une nouvelle vue "twoot.blade.php"
-Quand l'utilisateur va sur l'url "/twoots/:twoot_id", renvoyer le text du twoot en grand dans une balise <h1>.
+Quand l'utilisateur va sur l'url "/twoots/:twoot_id", renvoyer le text du twoot en grand dans une balise `<h1>`.
 
 Bonus validation
 ---
