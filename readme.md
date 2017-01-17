@@ -47,13 +47,6 @@ Step 3
 Ajouter sur chaque nouveau twoot créé ' bla bla'.
 Si on crée un twoot disant "Hello, world !" il doit s'afficher "Hello, world ! bla bla"
 
-Bonus validation
----
-
-https://laravel.com/docs/5.3/validation
-
-Trouver un moyen d'empêcher la création d'un twoot vide.
-
 Bonus timestamp de création
 ---
 
@@ -68,3 +61,10 @@ Bonus vue pleine page
 
 Créer une nouvelle vue "twoot.blade.php"
 Quand l'utilisateur va sur l'url "/twoots/:twoot_id", renvoyer le text du twoot en grand dans une balise <h1>.
+
+Bonus validation
+---
+
+https://laravel.com/docs/5.3/validation
+
+Trouver un moyen d'empêcher la création d'un twoot vide.
