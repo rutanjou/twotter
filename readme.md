@@ -2,6 +2,8 @@
 
 Ce repo vous guidera pour apprendre les bases de Laravel à travers la création d'une app qui n'a rien à voir avec Twitter.
 
+Slides : **https://slides.com/alexandremouillard/laravel**
+
 Installation
 ---
 1. Cloner le repo `git clone https://github.com/amouillard/twotter`
