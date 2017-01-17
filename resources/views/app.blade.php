@@ -31,7 +31,8 @@
                 <div class="card-block">
 
 
-                    <h4 class="card-title">{{ $twoot->text }}</h4>
+                    <h4 class="card-title">Le texte du twoot. Il faudrait faire un tour dans app.blade.php pour qu'il soit dynamique..</h4>
+                    <!-- Ici, on a accès à la variable $twoot ! -->
 
 
                     <form action="{{ url("/twoots/$twoot->id") }}" method="POST">
